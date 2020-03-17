@@ -1,0 +1,33 @@
+galaxy_info:
+  role_name: 'add_screenrc'
+  author: 'Johannes Kastl'
+  description: 'Adds a .screenrc for root and (if configured) any unprivileged users'
+  company: 'B1 Systems GmbH'
+
+  license: 'BSD-3-Clause'
+
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Red Hat
+    versions:
+    - all
+  - name: SUSE
+    versions:
+    - all
+  - name: openSUSE Leap
+    versions:
+    - all
+
+  galaxy_tags: []
+
+dependencies: []
