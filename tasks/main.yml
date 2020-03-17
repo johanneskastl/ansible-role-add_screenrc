@@ -1,0 +1,20 @@
+---
+# add_screenrc/tasks/main.yml
+
+- name: "add .screenrc for root"
+  template:
+    src: 'screenrc.j2'
+    dest: '/root/.screenrc'
+    owner: 'root'
+    group: 'root'
+    mode: '0644'
+
+- name: 'add .screenrc for additional users'
+  template:
+    src: 'screenrc.j2'
+    dest: "/home/{{ item }}/.screenrc"
+    owner: 'root'
+    group: 'root'
+    mode: '0644'
+  with_items: "{{ additional_users }}"
+  when: '"additional_users" is defined'
