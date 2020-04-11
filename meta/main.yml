@@ -12,19 +12,20 @@ galaxy_info:
   - name: Debian
     versions:
     - all
-  - name: Ubuntu
+  - name: EL
     versions:
-    - all
+    - 7
+    - 8
   - name: Fedora
     versions:
     - all
-  - name: Red Hat
-    versions:
-    - all
-  - name: SUSE
-    versions:
-    - all
   - name: openSUSE Leap
+    versions:
+    - all
+  - name: SLES
+    versions:
+    - all
+  - name: Ubuntu
     versions:
     - all
 
