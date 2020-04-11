@@ -21,7 +21,7 @@ galaxy_info:
   - name: Red Hat
     versions:
     - all
-  - name: SUSE
+  - name: SLES
     versions:
     - all
   - name: openSUSE Leap
