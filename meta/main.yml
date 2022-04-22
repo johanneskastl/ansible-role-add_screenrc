@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'add_screenrc'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Adds a .screenrc for root and (if configured) any unprivileged users'
   company: 'B1 Systems GmbH'
