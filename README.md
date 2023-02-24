@@ -25,7 +25,8 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: 'johanneskastl.add_screenrc', additional_users: [ 'tux', 'linux', 'snoopy' ] }
+        - role: 'johanneskastl.add_screenrc'
+          additional_users: [ 'tux', 'linux', 'snoopy' ]
 
 License
 -------
