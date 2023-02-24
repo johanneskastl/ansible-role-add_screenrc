@@ -2,7 +2,7 @@
 # add_screenrc/tasks/main.yml
 
 - name: "add .screenrc for root"
-  template:
+  ansible.builtin.template:
     src: 'screenrc.j2'
     dest: '/root/.screenrc'
     owner: 'root'
@@ -10,7 +10,7 @@
     mode: '0644'
 
 - name: 'add .screenrc for additional users'
-  template:
+  ansible.builtin.template:
     src: 'screenrc.j2'
     dest: "/home/{{ item }}/.screenrc"
     owner: 'root'
