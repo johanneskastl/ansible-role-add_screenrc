@@ -17,4 +17,5 @@
     group: 'root'
     mode: '0644'
   with_items: "{{ additional_users }}"
-  when: '"additional_users" is defined'
+  when:
+    - '"additional_users" is defined'
