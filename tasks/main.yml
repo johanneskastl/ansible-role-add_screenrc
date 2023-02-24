@@ -1,7 +1,7 @@
 ---
 # add_screenrc/tasks/main.yml
 
-- name: "Add .screenrc for root"
+- name: 'Add .screenrc for root'
   ansible.builtin.template:
     src: 'screenrc.j2'
     dest: '/root/.screenrc'
