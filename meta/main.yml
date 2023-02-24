@@ -22,6 +22,9 @@ galaxy_info:
     - name: opensuse
       versions:
         - all
+    - name: OpenWrt
+      versions:
+        - all
     - name: SLES
       versions:
         - all
