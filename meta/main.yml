@@ -20,7 +20,7 @@ galaxy_info:
     - name: Fedora
       versions:
         - all
-    - name: openSUSE Leap
+    - name: opensuse
       versions:
         - all
     - name: SLES
