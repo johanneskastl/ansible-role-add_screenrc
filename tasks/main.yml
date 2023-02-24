@@ -1,7 +1,7 @@
 ---
 # add_screenrc/tasks/main.yml
 
-- name: "add .screenrc for root"
+- name: "Add .screenrc for root"
   ansible.builtin.template:
     src: 'screenrc.j2'
     dest: '/root/.screenrc'
@@ -9,7 +9,7 @@
     group: 'root'
     mode: '0644'
 
-- name: 'add .screenrc for additional users'
+- name: 'Add .screenrc for additional users'
   ansible.builtin.template:
     src: 'screenrc.j2'
     dest: "/home/{{ item }}/.screenrc"
